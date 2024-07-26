@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Md. Meerakani Shabik - Frontend Developer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .portfolio-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            background-color:black;
+            color: white;
+            min-height: 100vh;
+        }
+        .portfolio-content {
+            display: flex;
+            align-items: center;
+            max-width: 900px;
+            width: 100%;
+        }
+        .text-content {
+           position: relative;
+           left: -300px;
+            
+        }
+        .text-content h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .text-content h2 {
+            font-size: 24px;
+            color: #ccc;
+            position: relative;
+            top: -25px;
+        }
+        .text-content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+       
+        .image-content img {
+           
+            border-radius: 8px;
+            transition: transform 0.5s, filter 0.5s;
+            display: inline-block;
+          
+           
+          border-radius: 10px;
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+         transition: box-shadow 0.3s ease-in-out;
+        }
+        .image-content img:hover{
+            transform: scale(1.1);
+            filter: brightness(1.2);
+            box-shadow: 0 0 30px orange;
+        }
+        span {
+            color: orange;
+            animation: textGlow 4s infinite;
+        }
+        @keyframes textGlow {
+            0%, 100% {
+                text-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange;
+            }
+            50% {
+                text-shadow: none;
+            }
+        }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .skills-container {
+            display: flex;
+            height: 100vh;
+        }
+        .skills-list {
+            flex: 1;
+            background-color:black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 50px;
+        }
+        .skills-list h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .skills-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .skills-image {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .skills-image img {
+            max-width: 50%;
+            height: auto;
+        }
+        .project-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .project-item img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 4px;
+        }
+        
+        footer {
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .inforconta{
+              position: relative;
+              top: 6cm;
+        }
+        a{
+            text-decoration: none;
+            color: orange;
+        }
+        a:hover{
+            animation: textGlow 4s infinite;
+            
+        }
+        button {
+            background-color: orange;
+            height: 75px;
+            width: 150px;
+            border-radius: 20px;
+            border-style: outset;
+            font-size: larger;
+            position: relative;
+            top: 4.5cm;
+            right: 8.3cm;
+            
+        }
+        button:hover {
+            animation: textGlow1 4s infinite;
+           background-color: #ccc; color: aliceblue;
+        }
+        @keyframes textGlow1 {
+            0%, 100% {
+                text-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke, 0 0 20px whitesmoke, 0 0 30px whitesmoke, 0 0 40px whitesmoke, 0 0 50px white, 0 0 60px white;
+            }
+            50% {
+                text-shadow: none;
+            }
+        }
+        img:hover{
+            transform: scale(1.1);
+            filter: brightness(1.2);
+            -ms-zoom-animation: initial;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="portfolio-content">
+            <div class="text-content">
+                <h1><span>Hi</span>, I’m Mohamed meerakani shabik</h1>
+                <h2>Frontend Developer</h2>
+                <p>Hi there! I'm Md. Meerakani Shabik, a passionate frontend developer with a keen eye for design and a love for creating beautiful, functional web experiences. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and user-friendly websites and web applications.I enjoy bringing creative ideas to life on the web. 
+                    Outside of coding, I enjoy exploring new design trends, learning about the latest web technologies, and continuously improving my skills.</p>
+            </div>
+            <div class="image-content">
+                <img src="C:\Users\shabi\OneDrive\Documents\WhatsApp Image 2024-07-24 at 16.11.57_48eafbd8.jpg" class="img1" alt="Md. Meerakani Shabik" height="250px" width="300px" style="position: relative;left: 4cm;top: 0.5cm;"> <!-- Replace with actual image path --></a>
+            </div>
+        </div>
+        <h1><span>My Projects</span></h1>
+        <div class="project-item">
+        <img src="C:\Users\shabi\OneDrive\Pictures\Screenshots\Screenshot 2024-07-23 221155.png" alt="Project 1">
+        <img src="C:\Users\shabi\OneDrive\Pictures\Screenshots\Screenshot 2024-07-24 224135.png" alt="Project 2">
+        <img src="C:\Users\shabi\OneDrive\Pictures\Screenshots\Screenshot 2024-07-24 223445.png" alt="Project 1">
+        <img src="C:\Users\shabi\OneDrive\Pictures\Screenshots\Screenshot 2024-07-24 223427.png" alt="Project 1">
+        
+                <div>
+                   <h2 style="color: orange;">MENSKART</h2>
+                    <p style=" line-height: 1.6;">Created the design for an online men's shopping website.The objective of the Menskart design project is to create a visually appealing and user-friendly online platform for men's fashion. The design aims to reflect a modern, stylish, and accessible shopping experience, focusing on ease of navigation, clean aesthetics, and an intuitive user interface.Clean layout with large images, multiple angles, and zoom functionality. Clear product descriptions, sizes, and prices.
+                        Filters and Sorting: Options to filter products by category, size, color, price, and more to enhance the shopping experience. Develop a user-friendly interface that is intuitive, easy to navigate, and aesthetically pleasing, ensuring that customers can effortlessly find and purchase the products they are looking for.</p>
+                </div>
+        </div>
+           
+        
+    </div>
+    <div class="skills-container">
+        <div class="skills-list">
+            <h2><span>Skills</span></h2>
+            <ul>
+                <li class="ug">HTML</li>
+                <li class="ug">CSS</li>
+                <li class="ug">JavaScript</li>
+                <li class="ug">React.js</li>
+                <li class="ug">Figma</li>
+            </ul>
+           
+            
+            
+        </div>
+        <div class="skills-image">
+            <img src="https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg" alt="Skills Image">
+        
+            <a href="C:\Users\shabi\Downloads\MOHAMED MEERAKANI SHABIK.pdf" download><button style="background-color: orange; height: 75px; width: 150px; border-radius: 20px;border-style: outset; justify-content: space-evenly;  font-size: larger; position: relative;top: 4.5cm; right: 8.3cm">Download cv</button></a>
+    
+    <center style="background-color: black; color: white;">
+        <h1 class="inforconta"  style="font-family: Arial, Helvetica, sans-serif; position: relative;right: 1cm;"><span>CONTACT</span></h1>
+        <p class="inforconta" style="position: relative; right: 1cm;">If you would like to get in touch,kindly contact through:</p>
+        <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app"><i class="fa fa-envelope" style="font-size:36px;position: relative;top: 6cm;"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fedit%2F%3F__coig_login%3D1"><i class="fa fa-instagram" style="font-size:36px; position: relative; top: 6cm;left: 1cm;"></i></a>
+        <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square" style="font-size:36px;position: relative;top: 6cm;right: 4cm;"></i></a>
+
+    </center>
+    </div>
+</body>
+</html>
